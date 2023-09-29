@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
-class ScreenTwo extends StatelessWidget {
-  const ScreenTwo({super.key});
+class ScreenThree extends StatelessWidget {
+  const ScreenThree({super.key});
 
   @override
   Widget build(BuildContext context) {
