@@ -6,7 +6,13 @@ class ScreenOne extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Center(child: Text("Screen One")),
+      child: Center(
+          child: Text(
+        "Screen One",
+        style: TextStyle(
+          fontWeight: FontWeight.bold,
+        ),
+      )),
     );
   }
 }
